@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (if you add JS services later)
+node_modules/
+npm-cache/
+
+# Python cache (if you add Python services)
+__pycache__/
+*.pyc
+
+# Balena build artifacts
+build/
+tmp/
+.cache/
+balena/
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.*
